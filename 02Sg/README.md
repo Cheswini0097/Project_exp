@@ -1,3 +1,11 @@
+The main.tf file defines the following security groups:
+
+mysql_sg
+bastion_sg
+node_sg
+eks_control_plane_sg
+ingress_alb_sg
+
 The following are the ingress rules defined in the `main.tf` file:
 
 1. **ingress_alb_https**
